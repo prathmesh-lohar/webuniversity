@@ -1,0 +1,184 @@
+{% extends 'base.html' %}
+{% block title %}{{tutorials.title}}{% endblock title %}
+{% block meta-desc %}{{tutorials.meta_description}}{% endblock meta-desc %}
+{% block meta-keywords %}{{tutorials.meta_keywors}}{% endblock meta-keywords %}
+{% block meta-auther %}{{tutorials.author}}{% endblock meta-auther %}
+{% block main %}
+{% load static %}
+<!-- inner banner -->
+<div class="inner-banner">
+    <section class="w3l-breadcrumb">
+        <div class="container">
+            <h1 class="inner-text-title font-weight-bold mb-sm-3 mb-2" style="font-size: 35px;">{{tutorials.course}}
+                </h4>
+                <ul class="breadcrumbs-custom-path">
+                    <li><a href="/">Home</a></li>
+                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>tutorials</li>
+                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>{{tutorials}}
+                    </li>
+                </ul>
+                <button class="mx-2 btn btn-outline-primary btn-sm rounded-0 my-1 indexbtn" onclick="myFunction()"><span class="fa fa-list"></span>
+                    Index</button>
+        </div>
+       
+
+    </section>
+</div>
+
+<!-- //inner banner -->
+
+<div class="container text-center index"  id="myDIV">
+    <ul class="list-group list-group-flush">
+        
+        {% for i in tutorial_list %}
+        <a href="/tutorial/{{tutorials.course}}/{{i.slug}}/{{cid}}">
+        <li class="list-group-item">{{i.title}}</li>
+    </a>
+        {% endfor %}
+            
+     
+      
+    </ul>
+</div>
+
+
+<div class="w3l-index-block4 pb-5">
+    <div class="features-bg pb-lg-5 pt-lg-4 py-4">
+
+
+
+        <div class="container my-5">
+            <div class="row">
+
+                <div class="container"">
+
+                    <div class=" cntainer main">
+                    <div class="title">
+                        <h1>{{tutorials.title}}</h1>
+                    </div>
+                    <ul class="blog_list mt-3 mb-4">
+                        <li class="mr-3"><a href="#"><i class="fa fa-user mr-2"
+                                    aria-hidden="true"></i>{{tutorials.author}}</a>
+                        </li>
+                        <li class="mr-3"><i class="fa fa-calendar mr-2"
+                                aria-hidden="true"></i>{{tutorials.date_of_publish}}
+                        </li>
+                        <li class="mr-3">
+                            <a href="#">
+                                <i class="fa fa-heart mr-2" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-comments mr-2" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                  
+                    <div class="body">
+                        <p>{{tutorials.body|safe}}</p>
+                    </div>
+
+                    <div class="single-pagination ">
+                        <a class="btn btn-primary prev-post pull-left" href="#prev"><span class="fa fa-arrow-left"
+                                aria-hidden="true"></span>
+
+                            Previous </a>
+                        <a class="btn btn-primary  next-post pull-right" href="#next">Next <span
+                                class="fa fa-arrow-right" aria-hidden="true"></span></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- end -->
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+
+<style>
+   .index{
+    display: none;
+   }
+   
+
+    @media only screen and (max-width: 990px) {
+        .tlist {
+            display: none;
+        }
+    }
+
+
+    .single-pagination {
+
+        margin-top: 40px;
+    }
+
+    .main {
+        text-align: justify;
+    }
+
+    ul.blog_list li {
+        display: inline-block;
+    }
+
+    ul.blog_list li i {
+        color: var(--secondary-color);
+    }
+
+    .title h1 {
+        font-weight: 600;
+    }
+
+    .w3l-index-block4 .features15-para h4 {
+        font-size: 18px;
+
+        font-weight: 600;
+    }
+
+
+    .w3l-breadcrumb {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        z-index: 100;
+        padding-top: 120px;
+        z-index: 99;
+    }
+
+    .inner-banner {
+
+        min-height: 230px;
+
+    }
+
+    .row {
+        margin-top: -40px;
+    }
+    body{
+        cursor: pointer;
+    }
+</style>
+
+
+<br>
+<br><br>
+
+
+<br>
+<br><br>
+{% endblock main %}
