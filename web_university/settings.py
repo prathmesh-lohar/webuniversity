@@ -174,3 +174,4 @@ TINYMCE_DEFAULT_CONFIG = {
     'statusbar': True,
 }
 
+

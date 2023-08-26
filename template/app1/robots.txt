@@ -1,5 +1,5 @@
 User-Agent: *
 
-Disallow: /super-admin/
+Disallow: //
 
 Sitemap: https://domain.com/sitemap.xml

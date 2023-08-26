@@ -17,27 +17,28 @@
                     <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>{{tutorials}}
                     </li>
                 </ul>
-                <button class="mx-2 btn btn-outline-primary btn-sm rounded-0 my-1 indexbtn" onclick="myFunction()"><span class="fa fa-list"></span>
+                <button class="mx-2 btn btn-outline-primary btn-sm rounded-0 my-1 indexbtn" onclick="myFunction()"><span
+                        class="fa fa-list"></span>
                     Index</button>
         </div>
-       
+
 
     </section>
 </div>
 
 <!-- //inner banner -->
 
-<div class="container text-center index"  id="myDIV">
+<div class="container text-center index" id="myDIV">
     <ul class="list-group list-group-flush">
-        
+
+
+    </ul>
+    <ul class="list-group list-group-flush">
         {% for i in tutorial_list %}
-        <a href="/tutorial/{{tutorials.course}}/{{i.slug}}/{{cid}}">
-        <li class="list-group-item">{{i.title}}</li>
-    </a>
+
+        <li class="list-group-item"><a href="/tutorial/{{tutorials.course}}/{{i.slug}}/{{cid}}">{{i.title}}</a></li>
+
         {% endfor %}
-            
-     
-      
     </ul>
 </div>
 
@@ -63,16 +64,16 @@
                         <li class="mr-3"><i class="fa fa-calendar mr-2"
                                 aria-hidden="true"></i>{{tutorials.date_of_publish}}
                         </li>
-                        <li class="mr-3">
+                        <!-- <li class="mr-3">
                             <a href="#">
                                 <i class="fa fa-heart mr-2" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="#">
                                 <i class="fa fa-comments mr-2" aria-hidden="true"></i></a>
-                        </li>
+                        </li> -->
                     </ul>
-                  
+
                     <div class="body">
                         <p>{{tutorials.body|safe}}</p>
                     </div>
@@ -101,20 +102,51 @@
 
 <script>
     function myFunction() {
-      var x = document.getElementById("myDIV");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
     }
-    </script>
+</script>
 
 <style>
-   .index{
-    display: none;
-   }
-   
+    .main {
+    max-width: 900px;
+    margin: auto;
+}
+    @media (min-width: 1200px) .container {
+        max-width: 1140px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @media (min-width: 992px) .container {
+        max-width: 960px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .index {
+        display: none;
+        max-width: 70%;
+        border-width: 1px;
+        border-style: solid;
+    }
+
+    .index li :hover {
+        color: tomato;
+
+    }
 
     @media only screen and (max-width: 990px) {
         .tlist {
@@ -169,12 +201,14 @@
     .row {
         margin-top: -40px;
     }
-    body{
+
+    body {
         cursor: pointer;
     }
 </style>
 
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.6.2/skins/ui/oxide/content.min.css" integrity="sha512-Nb60vaWMEAnUDZ/IsnF8mOndx6sXBu8V1OF6Fn8ikSm2gj5xNYAHc/1xsHn5ngna8lEm4uTuyKg3kO/HpMTKcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <br>
 <br><br>
 
