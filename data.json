@@ -1,0 +1,2826 @@
+[
+    {
+        "model": "app1.course",
+        "pk": 1,
+        "fields": {
+            "name": "Python",
+            "slug": "python",
+            "short_description": "Master the Python programming language",
+            "description": "",
+            "price": "Free",
+            "thumb": "courses/thumb/pythn-course.png"
+        }
+    },
+    {
+        "model": "app1.course",
+        "pk": 2,
+        "fields": {
+            "name": "C Programming",
+            "slug": "c_programming",
+            "short_description": "Learn C Language from scratch",
+            "description": "",
+            "price": "Free",
+            "thumb": "courses/thumb/C-programming-course.png"
+        }
+    },
+    {
+        "model": "app1.course",
+        "pk": 3,
+        "fields": {
+            "name": "C ++ Programming",
+            "slug": "c_pluse_pluse",
+            "short_description": "Learn Free C Pluse Pluse Programming",
+            "description": "",
+            "price": "Free",
+            "thumb": "courses/thumb/C_programming-course.png"
+        }
+    },
+    {
+        "model": "app1.course",
+        "pk": 4,
+        "fields": {
+            "name": "Java",
+            "slug": "java",
+            "short_description": "Become a Java developer",
+            "description": "",
+            "price": "Free",
+            "thumb": "courses/thumb/java-programming-course.png"
+        }
+    },
+    {
+        "model": "app1.course",
+        "pk": 5,
+        "fields": {
+            "name": "HTML",
+            "slug": "html",
+            "short_description": "Learn HTML From Scratch",
+            "description": "",
+            "price": "Free",
+            "thumb": "courses/thumb/HTML_Course.png"
+        }
+    },
+    {
+        "model": "app1.staf",
+        "pk": 1,
+        "fields": {
+            "name": "Samarjeet Thakur",
+            "role": "HTML , CSS",
+            "profile_picture": "staf/profile_picture/team2.jpg"
+        }
+    },
+    {
+        "model": "app1.blogcategory",
+        "pk": 8,
+        "fields": {
+            "name": "Tenchnology"
+        }
+    },
+    {
+        "model": "app1.blogcategory",
+        "pk": 9,
+        "fields": {
+            "name": "Programming"
+        }
+    },
+    {
+        "model": "app1.blogcategory",
+        "pk": 10,
+        "fields": {
+            "name": "C Programming"
+        }
+    },
+    {
+        "model": "app1.blogcategory",
+        "pk": 11,
+        "fields": {
+            "name": "Python"
+        }
+    },
+    {
+        "model": "app1.blogcategory",
+        "pk": 12,
+        "fields": {
+            "name": "Java"
+        }
+    },
+    {
+        "model": "app1.blogcategory",
+        "pk": 13,
+        "fields": {
+            "name": "OOP"
+        }
+    },
+    {
+        "model": "app1.blogcategory",
+        "pk": 14,
+        "fields": {
+            "name": "HTML"
+        }
+    },
+    {
+        "model": "app1.blogcategory",
+        "pk": 15,
+        "fields": {
+            "name": "CSS"
+        }
+    },
+    {
+        "model": "app1.blogcategory",
+        "pk": 16,
+        "fields": {
+            "name": "Bootstrap"
+        }
+    },
+    {
+        "model": "app1.blogcategory",
+        "pk": 17,
+        "fields": {
+            "name": "JS"
+        }
+    },
+    {
+        "model": "app1.blog",
+        "pk": 2,
+        "fields": {
+            "title": "How To install python",
+            "slug": "how_to_install_python",
+            "date_of_publish": "2023-08-22",
+            "thumb": "blog/thumb/blog3.jpg",
+            "summary": "Pythn Installation",
+            "body": "<p>aboutHow To install pythongg</p>",
+            "meta_description": "<p>how to design</p>",
+            "meta_keywords": null,
+            "author": 1,
+            "is_featured": true,
+            "category": [
+                11
+            ]
+        }
+    },
+    {
+        "model": "app1.blog",
+        "pk": 3,
+        "fields": {
+            "title": "How To Install C Compiler in Windos and Linux",
+            "slug": "how_to_install_c",
+            "date_of_publish": "2023-08-26",
+            "thumb": "blog/thumb/Your_paragraph_text-min.png",
+            "summary": "sunmar is best  and ilike it sunmar is best  and ilike it sunmar is best  and ilike it sunmar is best  and ilike it sunmar is best  and ilike it",
+            "body": "<p>Once you've considered these factors, you can start to research specific products and services. There are a number of resources available to help you with your research. You can read online reviews, talk to other business owners, and consult with tech experts.</p>\r\n<p>&nbsp;</p>\r\n<p>Once you've found a few products that you're interested in, it's time to test them out. Most vendors offer free trials or demos. This is a great way to see how the product works and to make sure it's a good fit for your businessAfter you've tested a few products, you can make a decision about which one is right for you. Be sure to factor in the cost of the product, the cost of training, and the cost of ongoing support.</p>",
+            "meta_description": "Once you've considered these factors, you can start to research specific products and services. There are a number of resources available to help you with your research. You can read online reviews, talk to other business owners, and consult with tech experts.\r\n\r\nOnce you've found a few products that you're interested in, it's time to test them out. Most vendors offer free trials or demos. This is a great way to see how the product works and to make sure it's a good fit for your business.\r\n\r\nAfter you've tested a few products, you can make a decision about which one is right for you. Be sure to factor in the cost of the product, the cost of training, and the cost of ongoing support.",
+            "meta_keywords": "python, oropgramming",
+            "author": 1,
+            "is_featured": true,
+            "category": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "model": "app1.blog",
+        "pk": 4,
+        "fields": {
+            "title": "How to Choose the Right Tech for Your Business",
+            "slug": "test_blog",
+            "date_of_publish": "2023-08-27",
+            "thumb": "blog/thumb/blog1_yExvEv8.jpg",
+            "summary": "The right tech can help your business grow and succeed. But with so many options available, it can be tough to know where to start. This blog post will give you some tips on how to choose the right tech for your business.",
+            "body": "<h2 style=\"margin: 24px 0px; white-space-collapse: preserve; word-break: break-word; color: #1f1f1f; font-family: 'Google Sans', 'Helvetica Neue', sans-serif; font-size: 16px; background-color: #ffffff;\" data-sourcepos=\"11:1-11:71\"><em><strong>Here are a few things to consider when choosing tech for your business:</strong></em></h2>\r\n<ul style=\"margin: 4px 0px; padding-inline-start: 36px; color: #1f1f1f; font-family: 'Google Sans', 'Helvetica Neue', sans-serif; font-size: 16px; background-color: #ffffff;\" data-sourcepos=\"13:1-17:0\">\r\n<li style=\"margin-bottom: 10px;\" data-sourcepos=\"13:1-13:143\">What are your business goals?&nbsp;What do you want to achieve with tech? Once you know your goals, you can start to narrow down your options.</li>\r\n<li style=\"margin-bottom: 10px;\" data-sourcepos=\"14:1-14:123\">What are your budget constraints?&nbsp;Tech can be expensive, so it's important to set a budget before you start shopping.</li>\r\n<li style=\"margin-bottom: 10px;\" data-sourcepos=\"15:1-15:167\">What are your team's skills and experience?&nbsp;Not everyone is tech-savvy. Make sure to choose tech that is easy to use and that your team can learn to use quickly.</li>\r\n<li style=\"margin-bottom: 10px;\" data-sourcepos=\"16:1-17:0\">What are your security needs?&nbsp;Tech can expose your business to security risks. Make sure to choose tech that has strong security features.</li>\r\n</ul>\r\n<p style=\"margin: 24px 0px; white-space-collapse: preserve; word-break: break-word; color: #1f1f1f; font-family: 'Google Sans', 'Helvetica Neue', sans-serif; font-size: 16px; background-color: #ffffff;\" data-sourcepos=\"18:1-18:260\">Once you've considered these factors, you can start to research specific products and services. There are a number of resources available to help you with your research. You can read online reviews, talk to other business owners, and consult with tech experts.</p>\r\n<p style=\"margin: 24px 0px; white-space-collapse: preserve; word-break: break-word; color: #1f1f1f; font-family: 'Google Sans', 'Helvetica Neue', sans-serif; font-size: 16px; background-color: #ffffff;\" data-sourcepos=\"20:1-20:229\">Once you've found a few products that you're interested in, it's time to test them out. Most vendors offer free trials or demos. This is a great way to see how the product works and to make sure it's a good fit for your business.</p>\r\n<p style=\"margin: 24px 0px; white-space-collapse: preserve; word-break: break-word; color: #1f1f1f; font-family: 'Google Sans', 'Helvetica Neue', sans-serif; font-size: 16px; background-color: #ffffff;\" data-sourcepos=\"22:1-22:194\">After you've tested a few products, you can make a decision about which one is right for you. Be sure to factor in the cost of the product, the cost of training, and the cost of ongoing support.</p>\r\n<p style=\"margin: 24px 0px; white-space-collapse: preserve; word-break: break-word; color: #1f1f1f; font-family: 'Google Sans', 'Helvetica Neue', sans-serif; font-size: 16px; background-color: #ffffff;\" data-sourcepos=\"24:1-24:157\">Choosing the right tech for your business is an important decision. By following these tips, you can make sure that you choose the right tech for your needs.</p>\r\n<p style=\"margin: 24px 0px; white-space-collapse: preserve; word-break: break-word; color: #1f1f1f; font-family: 'Google Sans', 'Helvetica Neue', sans-serif; font-size: 16px; background-color: #ffffff;\" data-sourcepos=\"26:1-26:19\">Call to action:</p>\r\n<p style=\"margin: 24px 0px; white-space-collapse: preserve; word-break: break-word; color: #1f1f1f; font-family: 'Google Sans', 'Helvetica Neue', sans-serif; font-size: 16px; background-color: #ffffff;\" data-sourcepos=\"28:1-28:213\">If you're still not sure how to choose the right tech for your business, don't hesitate to contact a tech expert. They can help you assess your needs and recommend the best products and services for your business.</p>\r\n<p style=\"margin: 24px 0px; white-space-collapse: preserve; word-break: break-word; color: #1f1f1f; font-family: 'Google Sans', 'Helvetica Neue', sans-serif; font-size: 16px; background-color: #ffffff;\" data-sourcepos=\"30:1-30:108\">I hope this blog post has been helpful. Please feel free to leave a comment below if you have any questions.</p>",
+            "meta_description": "This blog post will give you some tips on how to choose the right tech for your business.",
+            "meta_keywords": "carrer, Guidance",
+            "author": 2,
+            "is_featured": true,
+            "category": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "app1.tutorial",
+        "pk": 1,
+        "fields": {
+            "title": "how to install c compiler",
+            "slug": "how_to_install_c_compiler",
+            "date_of_publish": "2023-08-23",
+            "body": "how_to_install_c_compiler",
+            "meta_description": "",
+            "meta_keywords": null,
+            "author": 2,
+            "course": 2
+        }
+    },
+    {
+        "model": "app1.tutorial",
+        "pk": 2,
+        "fields": {
+            "title": "how to install python",
+            "slug": "how_to_install_python",
+            "date_of_publish": "2023-08-23",
+            "body": "<p>Python has become one of the most popular programming languages of the 21st century. It is being used for multiple purposes in various sectors of business. Developers use Python for building applications and developing websites. Data Engineers use Python for performing data analysis, statistical analysis, and building machine learning models. By default, Python is usually not installed on Windows. However, you can check if it exists on the system by running one line of command on the command prompt: python--version To download Python, you need to visit www.python.org, which is the official Python website. python Become a Skilled Web Developer in Just 9 Months! Caltech PGP Full Stack DevelopmentEXPLORE PROGRAMBecome a Skilled Web Developer in Just 9 Months! Click on the Downloads tab and then select the Windows option. python-downloads This will take you to the page where the different Python releases for Windows can be found. Since I am using a 64bit system, I&rsquo;ll select &ldquo;Windows x86-64 executable installer&rdquo;. stable releases Once the executable file download is complete, you can open it to install Python. open-file Click on Run, which will start the installation process. installation process If you want to save the installation file in a different location, click on Customize installation; otherwise, continue with Install Now. Also, select the checkbox at the bottom to Add Python 3.7 to PATH. setup-process Once the installation is complete, the below pop-up box will appear: Setup was successful. setup-successful Now that the installation is complete, you need to verify that everything is working fine. Learn How Postmates Revolutionized Food Delivery Free Webinar | 7 September, Thursday | 9 PM ISTREGISTER NOWLearn How Postmates Revolutionized Food Delivery Go to Start and search for Python. search You can see Python 3.7 (64-bit) and IDLE. Let&rsquo;s open IDLE, which is the short form for Integrated Development Environment, and run a simple print statement. python3.7.4 As you can see, we have successfully printed &ldquo;Hello World&rdquo; in Python Shell. Using the Python Shell, you can write one line of code and execute it by pressing Enter. Python also has a command-line interpreter that works similarly to Python IDLE. Let&rsquo;s print &ldquo;Hello world&rdquo; in the command-line. python3.7 Python&rsquo;s command-line interpreter and IDLE are suitable for any beginner to start with. However, to work in a developer environment and build large scale projects, you should use other popular IDEs and code editors, such as PyCharm, Atom, and Sublime Text. You can also try out the Anaconda Distribution of Python, which has Jupyter Notebook and Spyder. I hope this was helpful, and you were successfully able to download and install Python on Windows. To get more in-depth training, sign up for Simplilearn&rsquo;s Post Graduate Program in Full Stack Web Development today!</p>",
+            "meta_description": "y to Python IDLE. Let�s print �Hello world� in the command-line. python3.7 Python�s command-line interpreter and IDLE are suitable for any beginner to start with. However, to work in a developer environment and build large scale projects, you should use other popular IDEs and code editors, such as PyCharm, Atom, and Sublime Text. You can also try out th",
+            "meta_keywords": "Python,Programmingf",
+            "author": 1,
+            "course": 1
+        }
+    },
+    {
+        "model": "app1.tutorial",
+        "pk": 3,
+        "fields": {
+            "title": "functions in c programming",
+            "slug": "functions_in_c_programming",
+            "date_of_publish": "2023-08-23",
+            "body": "<p>functions in c programming</p>\r\n<p>&nbsp;</p>\r\n<pre class=\"language-python\"><code>print(\"hello\")</code></pre>",
+            "meta_description": null,
+            "meta_keywords": null,
+            "author": 1,
+            "course": 2
+        }
+    },
+    {
+        "model": "app1.tutorial",
+        "pk": 4,
+        "fields": {
+            "title": "Fuctions in c",
+            "slug": "fuction_c_in_language",
+            "date_of_publish": "2023-08-25",
+            "body": "<pre class=\"language-markup\"><code>&lt;div class=id&gt;\r\n&lt;/id&gt;</code></pre>\r\n<p class=\"intro\" style=\"box-sizing: inherit; margin-top: 1.2em; margin-bottom: 1.2em; font-size: 16px; font-family: Verdana, sans-serif; background-color: #ffffff;\"><strong>A function is a block of code which only runs when it is called.</strong></p>\r\n<p class=\"intro\" style=\"box-sizing: inherit; margin-top: 1.2em; margin-bottom: 1.2em; font-size: 16px; font-family: Verdana, sans-serif; background-color: #ffffff;\">You can pass data, <span style=\"color: #2dc26b;\"><em>known</em></span> as parameters, into a function.</p>\r\n<p class=\"intro\" style=\"box-sizing: inherit; margin-top: 1.2em; margin-bottom: 1.2em; font-size: 16px; font-family: Verdana, sans-serif; background-color: #ffffff;\">Functions are used to perform certain actions, and they are important for reusing code: Define the code once, and use it many times.</p>\r\n<h2 style=\"box-sizing: inherit; font-size: 32px; font-family: 'Segoe UI', Arial, sans-serif; font-weight: 400; margin: 10px 0px; background-color: #ffffff;\">Predefined Functions</h2>\r\n<p style=\"box-sizing: inherit; margin-top: 1.2em; margin-bottom: 1.2em; font-size: 15px; font-family: Verdana, sans-serif; background-color: #ffffff;\">So it turns out you already know what a function is. You have been using it the whole time while studying this tutorial!</p>\r\n<p style=\"box-sizing: inherit; margin-top: 1.2em; margin-bottom: 1.2em; font-size: 15px; font-family: Verdana, sans-serif; background-color: #ffffff;\"><span style=\"background-color: #ffffff; color: #000000; font-family: 'comic sans ms', sans-serif;\">For example,&nbsp;<code class=\"w3-codespan\" style=\"box-sizing: inherit; font-size: 15.75px; padding-left: 4px; padding-right: 4px; background-color: #ffffff;\">main()</code>&nbsp;is a function, which is used to execute code, and&nbsp;<code class=\"w3-codespan\" style=\"box-sizing: inherit; font-size: 15.75px; padding-left: 4px; padding-right: 4px; background-color: #ffffff;\">printf()</code>&nbsp;is a function; used to output/print text to the screen:</span></p>\r\n<p style=\"box-sizing: inherit; margin-top: 1.2em; margin-bottom: 1.2em; font-size: 15px; font-family: Verdana, sans-serif; background-color: #ffffff;\"><span style=\"background-color: #ffffff; color: #000000; font-family: 'comic sans ms', sans-serif;\"><iframe style=\"width: 555px; height: 311px;\" src=\"https://www.youtube.com/embed/xT1lFTSO7FM?si=6eMEZcJIsHLk4oBW\" width=\"auto\" height=\"auto\" allowfullscreen=\"allowfullscreen\"></iframe></span></p>\r\n<pre class=\"language-c\"><code>int main() {\r\n  printf(\"Hello World!\");\r\n  return 0;\r\n}</code></pre>",
+            "meta_description": "You can pass data, known as parameters, into a function.  Functions are used to perform certain actions, and they are important for reusing code: Define the code once, and use it many times.",
+            "meta_keywords": "python, oropgramming",
+            "author": 1,
+            "course": 2
+        }
+    },
+    {
+        "model": "app1.tutorial",
+        "pk": 5,
+        "fields": {
+            "title": "helloword pyton",
+            "slug": "helloworl",
+            "date_of_publish": "2023-08-26",
+            "body": "<pre class=\"language-python\"><code>print(\"hello\")</code></pre>",
+            "meta_description": "meta is desc",
+            "meta_keywords": null,
+            "author": 1,
+            "course": 1
+        }
+    },
+    {
+        "model": "app1.auther",
+        "pk": 1,
+        "fields": {
+            "name": "Prathmesh Lohar",
+            "role": "Full Stack"
+        }
+    },
+    {
+        "model": "app1.auther",
+        "pk": 2,
+        "fields": {
+            "name": "Aniket Madhurkar",
+            "role": "HTML , CSS"
+        }
+    },
+    {
+        "model": "app1.download_file",
+        "pk": 1,
+        "fields": {
+            "file": "tutorials/download-dat/Read_Document_1.png",
+            "tutorial": 1,
+            "name": "file",
+            "short_description": "",
+            "profile_pic": ""
+        }
+    },
+    {
+        "model": "app1.download_file",
+        "pk": 2,
+        "fields": {
+            "file": "tutorials/download-dat/pythn-course.png",
+            "tutorial": 1,
+            "name": "logo",
+            "short_description": "",
+            "profile_pic": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2023-08-22T11:25:40.528Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "example.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2023-08-22T11:26:11.841Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "localhost:8000",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2023-08-22T11:49:46.245Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "How To Install Python",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2023-08-22T11:56:41.974Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "3",
+            "object_repr": "wbniversity.com",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2023-08-22T11:57:18.586Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "3",
+            "object_repr": "wbniversity.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2023-08-22T11:57:29.086Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "localhost:8000.com",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2023-08-22T11:58:01.929Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "localhost:8000",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2023-08-22T12:16:40.883Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "How To Install Python",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2023-08-22T12:24:52.602Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "How To install python",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2023-08-22T13:00:00.522Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "localhost:8000",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2023-08-22T13:18:35.094Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "python",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2023-08-22T13:18:53.971Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "python",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2023-08-22T13:31:41.064Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2023-08-22T13:39:52.436Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Title\", \"Color\", \"Background color\", \"Text color\", \"Link hover color\", \"Background color\", \"Link hover color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2023-08-22T13:41:05.772Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2023-08-22T13:43:03.904Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Text color\", \"Link color\", \"Link selected color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2023-08-22T13:43:55.889Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Text color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2023-08-22T13:45:17.901Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Text color\", \"Link color\", \"Link hover color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2023-08-22T13:46:03.361Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2023-08-22T13:47:54.450Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Max width\", \"Max height\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2023-08-22T13:48:21.017Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2023-08-22T13:50:42.004Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\", \"Text color\", \"Link color\", \"Link hover color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2023-08-22T13:51:13.467Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Link color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2023-08-22T13:53:11.613Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Link hover color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2023-08-22T13:54:00.579Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Link color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2023-08-22T13:55:13.534Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Link selected color\", \"Link hover color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2023-08-22T13:55:53.299Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Rounded corners\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2023-08-22T13:57:05.821Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Collapsible tabular inlines\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2023-08-22T13:57:21.216Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Collapsible stacked inlines\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2023-08-22T13:57:53.256Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Collapsible stacked inlines\", \"Collapsible tabular inlines\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2023-08-22T14:00:05.722Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Sticky submit\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2023-08-22T14:01:03.486Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "How To install python",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2023-08-22T14:01:45.226Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Sticky submit\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2023-08-22T14:02:47.272Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Max height\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2023-08-22T14:04:12.690Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2023-08-22T14:04:17.331Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2023-08-22T14:05:00.580Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Web University",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2023-08-22T14:11:30.036Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "How To install python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2023-08-22T18:40:48.451Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Python",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2023-08-22T18:44:27.081Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "C Programming",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2023-08-22T18:46:10.706Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "C Pluse Pluse Programming",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2023-08-22T18:46:55.146Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Java",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2023-08-22T19:34:34.987Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2023-08-22T19:35:32.590Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2023-08-22T19:37:08.181Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2023-08-22T19:55:33.582Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "C ++ Programming",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2023-08-23T15:03:46.553Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Prathmesh Lohar",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2023-08-23T15:04:20.714Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Aniket Madhurkar",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2023-08-23T15:15:46.235Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "how to install c compiler",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2023-08-23T15:31:02.478Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "file",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2023-08-23T15:31:46.506Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "2",
+            "object_repr": "logo",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2023-08-23T18:10:44.224Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "1",
+            "object_repr": "Introductio Of Python",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2023-08-23T18:10:59.796Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "2",
+            "object_repr": "Functions In Python",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2023-08-23T18:47:52.717Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "how to install python",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 55,
+        "fields": {
+            "action_time": "2023-08-23T18:48:56.457Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "3",
+            "object_repr": "functions in c programming",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 56,
+        "fields": {
+            "action_time": "2023-08-24T13:02:45.550Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "how to install c compiler  how to install c compiler",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 57,
+        "fields": {
+            "action_time": "2023-08-24T13:27:04.778Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "C Programming",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 58,
+        "fields": {
+            "action_time": "2023-08-24T13:27:15.907Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "C ++ Programming",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 59,
+        "fields": {
+            "action_time": "2023-08-24T13:27:22.999Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Java",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 60,
+        "fields": {
+            "action_time": "2023-08-24T15:19:20.973Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "3",
+            "object_repr": "functions in c programming",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 61,
+        "fields": {
+            "action_time": "2023-08-24T15:19:36.646Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "how to install python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 62,
+        "fields": {
+            "action_time": "2023-08-24T15:20:00.594Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "how to install c compiler  how to install c compiler",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 63,
+        "fields": {
+            "action_time": "2023-08-24T15:35:23.022Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "how to install python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 64,
+        "fields": {
+            "action_time": "2023-08-24T18:31:00.383Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "how to install c compiler",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+            "action_time": "2023-08-25T14:36:18.073Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "How To install python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meta description\", \"Body\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+            "action_time": "2023-08-25T14:36:37.615Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "How To install python",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+            "action_time": "2023-08-25T14:42:20.414Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "4",
+            "object_repr": "Fuctions in c",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 68,
+        "fields": {
+            "action_time": "2023-08-25T14:47:02.117Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "4",
+            "object_repr": "Fuctions in c",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 69,
+        "fields": {
+            "action_time": "2023-08-26T10:24:29.612Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "4",
+            "object_repr": "Fuctions in c",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 70,
+        "fields": {
+            "action_time": "2023-08-26T10:30:59.883Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "4",
+            "object_repr": "Fuctions in c",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 71,
+        "fields": {
+            "action_time": "2023-08-26T10:37:04.720Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "4",
+            "object_repr": "Fuctions in c",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Meta keywors\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 72,
+        "fields": {
+            "action_time": "2023-08-26T10:49:34.104Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "gow to install c",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 73,
+        "fields": {
+            "action_time": "2023-08-26T13:12:03.961Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "4",
+            "object_repr": "Fuctions in c",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 74,
+        "fields": {
+            "action_time": "2023-08-26T13:34:06.069Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "3",
+            "object_repr": "functions in c programming",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 75,
+        "fields": {
+            "action_time": "2023-08-26T18:49:05.280Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "5",
+            "object_repr": "helloword pyton",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 76,
+        "fields": {
+            "action_time": "2023-08-27T15:34:32.679Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "5",
+            "object_repr": "helloword pyton",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meta description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 77,
+        "fields": {
+            "action_time": "2023-08-27T15:36:36.011Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "How to Choose the Right Tech for Your Business",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 78,
+        "fields": {
+            "action_time": "2023-08-27T15:36:49.471Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "How to Choose the Right Tech for Your Business",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 79,
+        "fields": {
+            "action_time": "2023-08-27T15:38:48.708Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "How to Choose the Right Tech for Your Business",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 80,
+        "fields": {
+            "action_time": "2023-08-27T15:51:07.971Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "gow to install c",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\", \"Summary\", \"Is featured\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 81,
+        "fields": {
+            "action_time": "2023-08-27T15:53:10.321Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "How To Install C Compiler in Windos and Linux",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 82,
+        "fields": {
+            "action_time": "2023-08-28T17:08:34.378Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "1",
+            "object_repr": "Programming",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 83,
+        "fields": {
+            "action_time": "2023-08-28T17:08:49.209Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "2",
+            "object_repr": "Tenchmology",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 84,
+        "fields": {
+            "action_time": "2023-08-28T17:09:02.711Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "3",
+            "object_repr": "Coding",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 85,
+        "fields": {
+            "action_time": "2023-08-28T17:09:09.562Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "4",
+            "object_repr": "Python",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 86,
+        "fields": {
+            "action_time": "2023-08-28T17:09:21.232Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "5",
+            "object_repr": "C Pragramming",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 87,
+        "fields": {
+            "action_time": "2023-08-28T17:09:27.501Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "6",
+            "object_repr": "OOP",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 88,
+        "fields": {
+            "action_time": "2023-08-28T17:10:05.162Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "7",
+            "object_repr": "Java",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 89,
+        "fields": {
+            "action_time": "2023-08-28T17:44:19.106Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "How To Install C Compiler in Windos and Linux",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meta description\", \"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 90,
+        "fields": {
+            "action_time": "2023-08-28T17:45:58.575Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "How To Install C Compiler in Windos and Linux",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 91,
+        "fields": {
+            "action_time": "2023-08-28T18:01:25.510Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "How To Install C Compiler in Windos and Linux",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 92,
+        "fields": {
+            "action_time": "2023-08-28T18:08:59.929Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "How to Choose the Right Tech for Your Business",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meta description\", \"Meta keywors\", \"Author\", \"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 93,
+        "fields": {
+            "action_time": "2023-08-28T18:10:52.713Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "How To install python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Summary\", \"Category\", \"Is featured\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 94,
+        "fields": {
+            "action_time": "2023-08-28T18:14:50.701Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "How To install python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 95,
+        "fields": {
+            "action_time": "2023-08-28T18:15:31.483Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "How To install python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 96,
+        "fields": {
+            "action_time": "2023-08-28T18:37:59.932Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "How To install python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 97,
+        "fields": {
+            "action_time": "2023-08-28T18:43:00.572Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "How To Install C Compiler in Windos and Linux",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 98,
+        "fields": {
+            "action_time": "2023-08-29T10:49:42.598Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "7",
+            "object_repr": "Java",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 99,
+        "fields": {
+            "action_time": "2023-08-29T10:49:42.616Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "6",
+            "object_repr": "OOP",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 100,
+        "fields": {
+            "action_time": "2023-08-29T10:49:42.624Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "5",
+            "object_repr": "C Pragramming",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 101,
+        "fields": {
+            "action_time": "2023-08-29T10:49:42.640Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "4",
+            "object_repr": "Python",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 102,
+        "fields": {
+            "action_time": "2023-08-29T10:49:42.648Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "3",
+            "object_repr": "Coding",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 103,
+        "fields": {
+            "action_time": "2023-08-29T10:49:42.654Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "2",
+            "object_repr": "Tenchmology",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 104,
+        "fields": {
+            "action_time": "2023-08-29T10:49:42.662Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "1",
+            "object_repr": "Programming",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 105,
+        "fields": {
+            "action_time": "2023-08-29T10:50:23.700Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "8",
+            "object_repr": "Tenchmology",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 106,
+        "fields": {
+            "action_time": "2023-08-29T10:50:25.436Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "How to Choose the Right Tech for Your Business",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 107,
+        "fields": {
+            "action_time": "2023-08-29T10:50:50.685Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "9",
+            "object_repr": "Programming",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 108,
+        "fields": {
+            "action_time": "2023-08-29T10:51:07.555Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "10",
+            "object_repr": "C Programming",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 109,
+        "fields": {
+            "action_time": "2023-08-29T10:51:09.980Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "How To Install C Compiler in Windos and Linux",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 110,
+        "fields": {
+            "action_time": "2023-08-29T10:51:27.748Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "11",
+            "object_repr": "Python",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 111,
+        "fields": {
+            "action_time": "2023-08-29T10:51:29.635Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "How To install python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 112,
+        "fields": {
+            "action_time": "2023-08-29T10:52:11.692Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "8",
+            "object_repr": "Tenchnology",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 113,
+        "fields": {
+            "action_time": "2023-08-29T10:52:30.667Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "12",
+            "object_repr": "Java",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 114,
+        "fields": {
+            "action_time": "2023-08-29T10:52:39.354Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "13",
+            "object_repr": "OOP",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 115,
+        "fields": {
+            "action_time": "2023-08-29T10:53:01.016Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "14",
+            "object_repr": "HTML",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 116,
+        "fields": {
+            "action_time": "2023-08-29T10:53:10.468Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "15",
+            "object_repr": "CSS",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 117,
+        "fields": {
+            "action_time": "2023-08-29T10:53:23.605Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "16",
+            "object_repr": "Bootstrap",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 118,
+        "fields": {
+            "action_time": "2023-08-29T10:53:32.228Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "17",
+            "object_repr": "JS",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 119,
+        "fields": {
+            "action_time": "2023-08-29T15:11:29.362Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "HTML",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 120,
+        "fields": {
+            "action_time": "2023-08-29T15:11:49.584Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "HTML",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Short description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 121,
+        "fields": {
+            "action_time": "2023-08-29T15:13:39.167Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "HTML",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 122,
+        "fields": {
+            "action_time": "2023-08-29T15:13:59.583Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "HTML",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 123,
+        "fields": {
+            "action_time": "2023-08-30T06:56:28.487Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Samarjeet Thakur",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 124,
+        "fields": {
+            "action_time": "2023-08-30T07:54:53.126Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 125,
+        "fields": {
+            "action_time": "2023-08-30T07:55:10.358Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "C Programming",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 126,
+        "fields": {
+            "action_time": "2023-08-30T07:55:23.928Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "C ++ Programming",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 127,
+        "fields": {
+            "action_time": "2023-08-30T07:55:36.211Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Java",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 128,
+        "fields": {
+            "action_time": "2023-08-30T07:55:45.785Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "HTML",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Thumb\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 129,
+        "fields": {
+            "action_time": "2023-08-30T09:07:31.485Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "how to install python",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Meta description\", \"Meta keywords\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add blog",
+            "content_type": 7,
+            "codename": "add_blog"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change blog",
+            "content_type": 7,
+            "codename": "change_blog"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete blog",
+            "content_type": 7,
+            "codename": "delete_blog"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view blog",
+            "content_type": 7,
+            "codename": "view_blog"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add course",
+            "content_type": 8,
+            "codename": "add_course"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change course",
+            "content_type": 8,
+            "codename": "change_course"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete course",
+            "content_type": 8,
+            "codename": "delete_course"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view course",
+            "content_type": 8,
+            "codename": "view_course"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add staf",
+            "content_type": 9,
+            "codename": "add_staf"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change staf",
+            "content_type": 9,
+            "codename": "change_staf"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete staf",
+            "content_type": 9,
+            "codename": "delete_staf"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view staf",
+            "content_type": 9,
+            "codename": "view_staf"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add site",
+            "content_type": 10,
+            "codename": "add_site"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change site",
+            "content_type": 10,
+            "codename": "change_site"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete site",
+            "content_type": 10,
+            "codename": "delete_site"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view site",
+            "content_type": 10,
+            "codename": "view_site"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add Theme",
+            "content_type": 11,
+            "codename": "add_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change Theme",
+            "content_type": 11,
+            "codename": "change_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete Theme",
+            "content_type": 11,
+            "codename": "delete_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view Theme",
+            "content_type": 11,
+            "codename": "view_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add auther",
+            "content_type": 12,
+            "codename": "add_auther"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change auther",
+            "content_type": 12,
+            "codename": "change_auther"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete auther",
+            "content_type": 12,
+            "codename": "delete_auther"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view auther",
+            "content_type": 12,
+            "codename": "view_auther"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add tutorial",
+            "content_type": 13,
+            "codename": "add_tutorial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change tutorial",
+            "content_type": 13,
+            "codename": "change_tutorial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete tutorial",
+            "content_type": 13,
+            "codename": "delete_tutorial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view tutorial",
+            "content_type": 13,
+            "codename": "view_tutorial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add tut_download_file",
+            "content_type": 14,
+            "codename": "add_tut_download_file"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change tut_download_file",
+            "content_type": 14,
+            "codename": "change_tut_download_file"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete tut_download_file",
+            "content_type": 14,
+            "codename": "delete_tut_download_file"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view tut_download_file",
+            "content_type": 14,
+            "codename": "view_tut_download_file"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can add course_unit",
+            "content_type": 15,
+            "codename": "add_course_unit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can change course_unit",
+            "content_type": 15,
+            "codename": "change_course_unit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can delete course_unit",
+            "content_type": 15,
+            "codename": "delete_course_unit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can view course_unit",
+            "content_type": 15,
+            "codename": "view_course_unit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 61,
+        "fields": {
+            "name": "Can add blogcategory",
+            "content_type": 16,
+            "codename": "add_blogcategory"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 62,
+        "fields": {
+            "name": "Can change blogcategory",
+            "content_type": 16,
+            "codename": "change_blogcategory"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 63,
+        "fields": {
+            "name": "Can delete blogcategory",
+            "content_type": 16,
+            "codename": "delete_blogcategory"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 64,
+        "fields": {
+            "name": "Can view blogcategory",
+            "content_type": 16,
+            "codename": "view_blogcategory"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 65,
+        "fields": {
+            "name": "Can add download_file",
+            "content_type": 14,
+            "codename": "add_download_file"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 66,
+        "fields": {
+            "name": "Can change download_file",
+            "content_type": 14,
+            "codename": "change_download_file"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 67,
+        "fields": {
+            "name": "Can delete download_file",
+            "content_type": 14,
+            "codename": "delete_download_file"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 68,
+        "fields": {
+            "name": "Can view download_file",
+            "content_type": 14,
+            "codename": "view_download_file"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 69,
+        "fields": {
+            "name": "Can add tutor",
+            "content_type": 9,
+            "codename": "add_tutor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 70,
+        "fields": {
+            "name": "Can change tutor",
+            "content_type": 9,
+            "codename": "change_tutor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 71,
+        "fields": {
+            "name": "Can delete tutor",
+            "content_type": 9,
+            "codename": "delete_tutor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 72,
+        "fields": {
+            "name": "Can view tutor",
+            "content_type": 9,
+            "codename": "view_tutor"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$mVPfqmpiZ9ybHiFEQFYD5c$MK6qxqNqo4hOra0rVAqhOQ5wzmbf6NZ+4n3Jcb2qxpE=",
+            "last_login": "2023-08-30T09:06:54.246Z",
+            "is_superuser": true,
+            "username": "admin@prathmesh",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-08-21T12:27:30.888Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "app1",
+            "model": "blog"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "app1",
+            "model": "course"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "app1",
+            "model": "staf"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "sites",
+            "model": "site"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "admin_interface",
+            "model": "theme"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "app1",
+            "model": "auther"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "app1",
+            "model": "tutorial"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 14,
+        "fields": {
+            "app_label": "app1",
+            "model": "download_file"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 15,
+        "fields": {
+            "app_label": "app1",
+            "model": "course_unit"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 16,
+        "fields": {
+            "app_label": "app1",
+            "model": "blogcategory"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "dc8dgbgnmcztfm355yxy9qefiv067rof",
+        "fields": {
+            "session_data": ".eJxVjDkOwjAUBe_iGlnxEhtT0ucM1t-MAyiR4qRC3B0ipYD2zcx7qQzbWvPWZMkjq4sy6vS7IdBDph3wHabbrGme1mVEvSv6oE0PM8vzerh_BxVa_dYldil251AsFmCO3icvtngmSOgkWC_SU6DAvfHOFkxkkcixdWwARb0_-j448A:1qYX48:lwlN4C4m4YQUexzHUMLBiwpJAUk-p-icGBZbzET_PXA",
+            "expire_date": "2023-09-05T19:29:24.763Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "jys4z5l94kqx0jggb9knxi7wwzp9u22s",
+        "fields": {
+            "session_data": ".eJxVjDkOwjAUBe_iGlnxEhtT0ucM1t-MAyiR4qRC3B0ipYD2zcx7qQzbWvPWZMkjq4sy6vS7IdBDph3wHabbrGme1mVEvSv6oE0PM8vzerh_BxVa_dYldil251AsFmCO3icvtngmSOgkWC_SU6DAvfHOFkxkkcixdWwARb0_-j448A:1qYBBn:nM_zYI27T5mbaQDN1tSy4EBfWBglIXF6wRl0FED3264",
+            "expire_date": "2023-09-04T20:07:51.206Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "kucc63qkny5jk8c74s3nhnwrg1cvj0k8",
+        "fields": {
+            "session_data": ".eJxVjDkOwjAUBe_iGlnxEhtT0ucM1t-MAyiR4qRC3B0ipYD2zcx7qQzbWvPWZMkjq4sy6vS7IdBDph3wHabbrGme1mVEvSv6oE0PM8vzerh_BxVa_dYldil251AsFmCO3icvtngmSOgkWC_SU6DAvfHOFkxkkcixdWwARb0_-j448A:1qbHA6:TU-sJCLlSUBcGQSNCUk9xyUzE5b3KPTWqz6MDgU9APY",
+            "expire_date": "2023-09-13T09:06:54.262Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "rxkmakdg2r8vzpyr82g1gywgwley32pl",
+        "fields": {
+            "session_data": ".eJxVjDkOwjAUBe_iGlnxEhtT0ucM1t-MAyiR4qRC3B0ipYD2zcx7qQzbWvPWZMkjq4sy6vS7IdBDph3wHabbrGme1mVEvSv6oE0PM8vzerh_BxVa_dYldil251AsFmCO3icvtngmSOgkWC_SU6DAvfHOFkxkkcixdWwARb0_-j448A:1qYVJa:L5eW0DojolKA7HrcWp99g6WbZACjH1AU4WGacmJV0TQ",
+            "expire_date": "2023-09-05T17:37:14.040Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ztdegxp4xo7zrd2zf7smq5nby7fcyf9p",
+        "fields": {
+            "session_data": ".eJxVjDkOwjAUBe_iGlnxEhtT0ucM1t-MAyiR4qRC3B0ipYD2zcx7qQzbWvPWZMkjq4sy6vS7IdBDph3wHabbrGme1mVEvSv6oE0PM8vzerh_BxVa_dYldil251AsFmCO3icvtngmSOgkWC_SU6DAvfHOFkxkkcixdWwARb0_-j448A:1qYQuj:eZev2Quf3t5FkNKdeW62LsfBZy9V2WJHycFIthGcvqE",
+            "expire_date": "2023-09-05T12:55:17.623Z"
+        }
+    },
+    {
+        "model": "sites.site",
+        "pk": 2,
+        "fields": {
+            "domain": "localhost:8000",
+            "name": "localhost:8000"
+        }
+    }
+]
