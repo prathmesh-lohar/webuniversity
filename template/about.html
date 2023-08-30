@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}Web University: About{% endblock title %}
+{% block title %}: About{% endblock title %}
 {% block meta-desc %}{% endblock meta-desc %}
 {% block meta-keywords %}{% endblock meta-keywords %}
 {% block meta-auther %}Prathmesh-Lohar{% endblock meta-auther %}
@@ -29,10 +29,8 @@
                     <div class="col-lg-6 text-6-info mb-lg-0 mb-4 pl-lg-5">
                         <h6>Online Study</h6>
                         <h2>Welcome to our <span>Website</span></h2>
-                        <p>Aenean pulvinar pharetra pellentesque. Cras dignissim, sapien ac tempus bibendum, eros massa
-                            fermentum
-                            massa, in eleifend ipsum quam vel magna.Maecenas viverra, leo eget semper ultrices.</p>
-                        <a href="#blog" class="btn button-style mt-sm-5 mt-4">Read More<i
+                        <p>We offer free courses, tutorials, and technical knowledge through our website. Our goal is to provide accessible and engaging content for everyone. We are dedicated to helping people learn and grow, and we are committed to delivering the best learning experience possible.</p>
+                        <a href="#moreabout" class="btn button-style mt-sm-5 mt-4">Read More<i
                                 class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
@@ -41,32 +39,29 @@
     </section>
     <!-- //about section -->
     <!-- about block 3 -->
-    <section class="about-block-3 py-5">
+    <section class="about-block-3 py-5" id="moreabout">
         <div class="grids-w3ovt py-md-4 py-3">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 mb-md-0 mb-5">
                         <div class="bg-color-block-2">
                             <h6 class="top-grid-text text-uppercase"><label>01.</label>Our Values</h6>
-                            <h3 class="grid-one-text mt-2 mb-4">Nam vehicula neque id purus malesuada aliquam</h3>
-                            <p>Donec interdum magna ac libero mattis porta. Nulla in mauris aliquam convallis. Mauris
-                                vitae ante nec augue.</p>
+                            <h3 class="grid-one-text mt-2 mb-4">Free  knowledge sharing Related to Programming And Technology</h3>
+                            <p>Everyone can access our website for free, regardless of their background or financial situation. This demonstrates your commitment to diversity and ensuring that everyone can access education.</p>
                         </div>
                     </div>
                     <div class="col-md-4 mb-md-0 mb-5">
                         <div class="bg-color-block-2">
                             <h6 class="top-grid-text text-uppercase"><label>02.</label>Who We Are</h6>
-                            <h3 class="grid-one-text mt-2 mb-4">Nam vehicula neque id purus malesuada aliquam</h3>
-                            <p>Donec interdum magna ac libero mattis porta. Nulla in mauris aliquam convallis. Mauris
-                                vitae ante nec augue.</p>
+                            <h3 class="grid-one-text mt-2 mb-4">We are the community of people who experienced and graduated in Technology</h3>
+                            <p>Our Community named as DreamH is workig from last 2years to help those who are want to learn programming and latest trends.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="bg-color-block-2">
                             <h6 class="top-grid-text text-uppercase"><label>03.</label>What We Do</h6>
-                            <h3 class="grid-one-text mt-2 mb-4">Nam vehicula neque id purus malesuada aliquam</h3>
-                            <p>Donec interdum magna ac libero mattis porta. Nulla in mauris aliquam convallis. Mauris
-                                vitae ante nec augue.</p>
+                            <h3 class="grid-one-text mt-2 mb-4">We Provide Free Knowledge On Our Website with Courses, Tutorials and Blogs</h3>
+                            <p>In Our Website We Provide Knowledge by Courses, Tutorials and Blogs Which Is Completly Free and Content Is Modified frequently.</p>
                         </div>
                     </div>
                 </div>
@@ -74,7 +69,7 @@
         </div>
     </section>
     <!-- //about block 3 -->
-    <!-- stats -->
+    {% comment %} <!-- stats -->
     <section class="w3_stats py-5" id="stats">
         <div class="container py-md-5 py-4">
             <div class="w3-stats">
@@ -148,7 +143,7 @@
             </div>
         </div>
     </section>
-    <!-- //video section -->
+    <!-- //video section --> 
     <!-- testimonials -->
     <section class="w3l-companies-hny-6 position-relative">
         <div class="cusrtomer-layout py-5">
@@ -220,54 +215,27 @@
         </div>
     </section>
     <!--//testimonials-->
+    {% endcomment %}
     <!-- teams 32 block -->
     <section class="w3l-teams-32-main py-5">
         <div class="teams-32 py-md-4 py-3 mb-5">
             <div class="container">
                 <div class="title-main text-center mx-auto mb-4">
-                    <h3 class="title-big">Our Expert Teachers</h3>
-                    <p class="sub-title mt-2">Cum doctus civibus efficiantur in imperdiet deterruisset. Cras efficitur,
-                        metus
-                        gravida suscipit cursus, dui diam pre lorem id
-                        lectus.</p>
+                    <h3 class="title-big">Our Expert Tutors</h3>
+                    <p class="sub-title mt-2">We have expert tutors each tutor is master in their field and updating itself as per latest trends.</p>
                 </div>
                 <div class="row main-contteam-32 mt-sm-5 pt-lg-2">
+                    {% for st in staf %}
                     <div class="col-lg-3 col-6 team-main-19">
                         <div class="column-19">
-                            <a href="#team"><img class="img-fluid" src="{% static 'assets/images/team1.jpg' %}" alt=" "></a>
+                            <a href="#"><img class="img-fluid" src="{{st.profile_picture.url}}" alt="staf-{{st.name}}" loading="lazy"></a>
                         </div>
                         <div class="right-team-9">
-                            <h6><a href="#team" class="title-team-32">Chris Tina</a></h6>
-                            <p class="sm-text-32">Web Designer</p>
+                            <h6><a href="#team" class="title-team-32">{{st.name}}</a></h6>
+                            <p class="sm-text-32">{{st.role}}</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-6 team-main-19">
-                        <div class="column-19">
-                            <a href="#team"><img class="img-fluid" src="{% static 'assets/images/team2.jpg' %}" alt=" "></a>
-                        </div>
-                        <div class="right-team-9">
-                            <h6><a href="#team" class="title-team-32">Diego Mota</a></h6>
-                            <p class="sm-text-32">CSS, HTML</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6 team-main-19">
-                        <div class="column-19">
-                            <a href="#team"><img class="img-fluid" src="{% static 'assets/images/team3.jpg' %}" alt=" "></a>
-                        </div>
-                        <div class="right-team-9">
-                            <h6><a href="#team" class="title-team-32">Anton Bone</a></h6>
-                            <p class="sm-text-32">UI/UX Designer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6 team-main-19">
-                        <div class="column-19">
-                            <a href="#team"><img class="img-fluid" src="{% static 'assets/images/team4.jpg' %}" alt=" "></a>
-                        </div>
-                        <div class="right-team-9">
-                            <h6><a href="#team" class="title-team-32">Neoye Achi</a></h6>
-                            <p class="sm-text-32">Web Developer</p>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>

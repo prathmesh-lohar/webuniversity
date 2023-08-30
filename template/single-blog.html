@@ -1,25 +1,16 @@
 {% extends 'base.html' %}
-{% block title %}{{tutorials.title}}{% endblock title %}
-{% block meta-desc %}{{tutorials.meta_description}}{% endblock meta-desc %}
-{% block meta-keywords %}{{tutorials.meta_keywords}}{% endblock meta-keywords %}
-{% block meta-auther %}{{tutorials.author}}{% endblock meta-auther %}
+{% block title %}{{blogobj.title}}{% endblock title %}
+{% block meta-desc %}{{blogobj.meta_description}}{% endblock meta-desc %}
+{% block meta-keywords %}{{blogobj.meta_keywords}}{% endblock meta-keywords %}
+{% block meta-auther %}{{blogobj.author}}{% endblock meta-auther %}
 {% block main %}
 {% load static %}
 <!-- inner banner -->
 <div class="inner-banner">
     <section class="w3l-breadcrumb">
         <div class="container">
-            <h1 class="inner-text-title font-weight-bold mb-sm-3 mb-2" style="font-size: 35px;">{{tutorials.course}}
-                </h1>
-                <ul class="breadcrumbs-custom-path">
-                    <li><a href="/">Home</a></li>
-                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>tutorials</li>
-                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>{{tutorials}}
-                    </li>
-                </ul>
-                <button class="mx-2 btn btn-outline-primary btn-sm rounded-0 my-1 indexbtn" onclick="myFunction()"><span
-                        class="fa fa-list"></span>
-                    Index</button>
+            <h1 class="inner-text-title font-weight-bold mb-sm-3 mb-2" style="font-size: 35px; line-height: 1;">{{blogobj.title}}
+                </h1>       
         </div>
 
 
@@ -28,25 +19,9 @@
 
 <!-- //inner banner -->
 
-<div class="container text-center index" id="myDIV">
-    <ul class="list-group list-group-flush">
-
-
-    </ul>
-    <ul class="list-group list-group-flush">
-        {% for i in tutorial_list %}
-
-        <li class="list-group-item"><a href="/tutorial/{{tutorials.course.slug}}/{{i.slug}}">{{i.title}}</a></li>
-
-        {% endfor %}
-    </ul>
-</div>
-
 
 <div class="w3l-index-block4 pb-5">
     <div class="features-bg pb-lg-5 pt-lg-4 py-4">
-
-
 
         <div class="container my-5">
             <div class="row">
@@ -54,15 +29,32 @@
                 <div class="container"">
 
                     <div class=" cntainer main">
-                    <div class="title">
-                        <h1>{{tutorials.title}}</h1>
+
+                    <div class="thumnail">
+                        <img src="{{blogobj.thumb.url}}" class="img-fluid" alt="{{blogobj.title}}" loading="lazy"/>
                     </div>
                     <ul class="blog_list mt-3 mb-4">
                         <li class="mr-3"><a href="#"><i class="fa fa-user mr-2"
-                                    aria-hidden="true"></i>{{tutorials.author}}</a>
+                                    aria-hidden="true"></i>{{blogobj.author}}</a>
                         </li>
                         <li class="mr-3"><i class="fa fa-calendar mr-2"
-                                aria-hidden="true"></i>{{tutorials.date_of_publish}}
+                                aria-hidden="true"></i>{{blogobj.date_of_publish}}
+                        </li>
+                         <li class="mr-3"><i class="fa fa-folder mr-2"
+                                aria-hidden="true"></i>
+                
+                                {% for cats in blogobj.category.all %}
+                    
+                                 {{cats.name}}{% if forloop.last %}.
+                                    {% else %},
+                                 {% endif %}
+                                 
+                                 
+                                     
+                                 <!-- {{ forloop.counter }} -->
+                                    
+                                {% endfor %}
+       
                         </li>
                         <!-- <li class="mr-3">
                             <a href="#">
@@ -75,13 +67,13 @@
                     </ul>
 
                     <div class="body">
-                        <p>{{tutorials.body|safe}}</p>
+                        <p>{{blogobj.body|safe}}</p>
                     </div>
 
                     <div class="single-pagination ">
                         
                         {% if prev is not None %}
-                        <a class="btn btn-primary prev-post pull-left" href="/tutorial/{{prev.course.slug}}/{{prev.slug}}"><span class="fa fa-arrow-left"
+                        <a class="btn btn-primary prev-post pull-left" href="/blog/{{prev.slug}}"><span class="fa fa-arrow-left"
                             aria-hidden="true"></span>
 
                         Previous </a>
@@ -90,7 +82,7 @@
                         
                         {% if next is not None %}
                              
-                        <a class="btn btn-primary  next-post pull-right" href="/tutorial/{{next.course.slug}}/{{next.slug}}">Next <span
+                        <a class="btn btn-primary  next-post pull-right" href="/blog/{{next.slug}}">Next  <span
                             class="fa fa-arrow-right" aria-hidden="true"></span></a>
 
                         {% endif %}
@@ -124,10 +116,16 @@
 </script>
 
 <style>
+    .thumnail .img-fluid{
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
     .main {
         max-width: 800px;
         margin: auto;
     }
+
 
     @media (min-width: 1200px) .container {
         max-width: 1140px;
@@ -149,24 +147,11 @@
         margin-left: auto;
     }
 
-    .index {
-        display: none;
-        max-width: 70%;
-        border-width: 1px;
-        border-style: solid;
-    }
+  
 
-    .index li :hover {
-        color: tomato;
+ 
 
-    }
-
-    @media only screen and (max-width: 990px) {
-        .tlist {
-            display: none;
-        }
-    }
-
+ 
 
     .single-pagination {
 

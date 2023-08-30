@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}Web University: About{% endblock title %}
+{% block title %}: Courses{% endblock title %}
 {% block meta-desc %}{% endblock meta-desc %}
 {% block meta-keywords %}{% endblock meta-keywords %}
 {% block meta-auther %}Prathmesh-Lohar{% endblock meta-auther %}
@@ -27,10 +27,10 @@
                     {% for i in courses %}
                         
                     <div class="col-lg-4 col-md-6 features15-col-text">
-                        <a href="/course/{{i.slug}}/index/{{i.id}}" class="d-flex feature-unit align-items-center">
+                        <a href="/course/{{i.slug}}/index" class="d-flex feature-unit align-items-center">
                             <div class="col-4">
                                 <div class="features15-info">
-                                    <img class="img-fluid" src="{{i.thumb.url}}" alt="Course-{{i.name}}">
+                                    <img class="img-fluid" src="{{i.thumb.url}}" alt="Course-{{i.name}}" loading="lazy">
                                 </div>
                             </div>
                             <div class="col-8">

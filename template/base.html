@@ -44,12 +44,17 @@
                         <li {% if request.resolver_match.url_name == 'home' %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
                             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li {% if request.resolver_match.url_name == 'about' %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
-                            <a class="nav-link" href="/about">About</a>
-                        </li>
                         <li {% if request.resolver_match.url_name == 'courses' %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
                             <a class="nav-link" href="/courses">Courses</a>
                         </li>
+                        <li {% if request.resolver_match.url_name == 'blog' %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+                            <a class="nav-link" href="/blog">Blog</a>
+                        </li>
+
+                        <li {% if request.resolver_match.url_name == 'about' %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
+                            <a class="nav-link" href="/about">About</a>
+                        </li>
+                       
                         <li {% if request.resolver_match.url_name == 'contact' %} class="nav-item active" {% else %} class="nav-item" {% endif %}">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
@@ -60,9 +65,10 @@
                             <div id="search" class="pop-overlay">
                                 <div class="popup">
                                     <h4 class="search-pop-text-w3 text-white text-center mb-4">Search Here Your
-                                        Online Course
+                                        Online Course , Tutorials , Blogs
                                     </h4>
-                                    <form action="#error" method="GET" class="search-box">
+                                    <form action="/search" method="POST" class="search-box">
+                                        {% csrf_token %}
                                         <div class="input-search"> <span class="fa fa-search mr-2"
                                                 aria-hidden="true"></span><input type="search"
                                                 placeholder="Enter Keyword" name="search" required="required"
@@ -106,7 +112,7 @@
                 <div class="text-txt">
                     <div class="right-side text-center">
                         <h4>Do you want to our best popular online courses</h4>
-                        <a class="btn button-style mt-4" href="about.html">Get Started<i
+                        <a class="btn button-style mt-4" href="/courses">Get Started<i
                                 class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                     <div class="row sub-columns">
@@ -179,7 +185,8 @@
         <div class="copyright-footer text-center">
             <div class="container">
                 <div class="columns">
-                    <p>@2020 Online Study. All rights reserved. Design by <a href="https://w3layouts.com/"
+                    <p>Website Developed by <a href="#"
+                        target="_blank"> DreamH Community</a>. Template Design by <a href="https://w3layouts.com/"
                             target="_blank"> W3Layouts</a>
                     </p>
                 </div>

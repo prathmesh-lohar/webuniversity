@@ -1,87 +1,88 @@
 {% extends 'base.html' %}
-{% block title %}Web University: About{% endblock title %}
+{% block title %}index: {{slug}}{% endblock title %}
 {% block meta-desc %}{% endblock meta-desc %}
 {% block meta-keywords %}{% endblock meta-keywords %}
 {% block meta-auther %}Prathmesh-Lohar{% endblock meta-auther %}
 {% block main %}
 {% load static %}
-    <!-- inner banner -->
-    <div class="inner-banner">
-        <section class="w3l-breadcrumb">
-            <div class="container">
-                <h4 class="inner-text-title font-weight-bold mb-sm-3 mb-2">Index</h4>
-                <ul class="breadcrumbs-custom-path">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>Courses</li>
-                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>{{slug}}</li>
-                </ul>
-            </div>
-        </section>
-    </div>
-    <!-- //inner banner -->
-    <div class="w3l-index-block4 pb-5">
-        <div class="features-bg pb-lg-5 pt-lg-4 py-4">
+<!-- inner banner -->
+<div class="inner-banner">
+    <section class="w3l-breadcrumb">
+        <div class="container">
+            <h4 class="inner-text-title font-weight-bold mb-sm-3 mb-2">Index</h4>
+            <ul class="breadcrumbs-custom-path">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>Courses</li>
+                <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>{{slug}}</li>
+            </ul>
+        </div>
+    </section>
+</div>
+<!-- //inner banner -->
+<div class="w3l-index-block4 pb-5">
+    <div class="features-bg pb-lg-5 pt-lg-4 py-4">
 
-            <div class="container">
-             
-                <div class="row">
-                   
-                    
-                    {% for i in tutorial %}
-    
-                    <div class="col-lg-4 col-md-6 features15-col-text">
-                        <a href="/tutorial/{{i.course.slug}}/{{i.slug}}/{{i.course.id}}" class="d-flex feature-unit align-items-center active">
-                            
-                            <div class="col-12">
-                                <div class="features15-para">
-                                   
-                                    <h4>{{i.title}}</h4>
-                                    
-                                </div>
+        <div class="container">
+
+            <div class="row">
+
+
+                {% for i in tutorial %}
+
+                <div class="col-lg-4 col-md-6 features15-col-text">
+                    <a href="/tutorial/{{i.course.slug}}/{{i.slug}}"
+                        class="d-flex feature-unit align-items-center active">
+
+                        <div class="col-12">
+                            <div class="features15-para">
+
+                                <h4>{{i.title}}</h4>
+
                             </div>
-                        </a>
-                    </div>
-                    {% endfor %}
-                    
+                        </div>
+                    </a>
                 </div>
+                {% endfor %}
+
             </div>
+        </div>
+</div>
+</div>
+        <!-- end -->
 
-            <!-- end -->
+    </div>
+    <style>
+        .w3l-index-block4 .features15-para h4 {
+            font-size: 18px;
+
+            font-weight: 600;
+        }
 
 
-           <style>
-            .w3l-index-block4 .features15-para h4 {
-                font-size: 18px;
+        .w3l-breadcrumb {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            z-index: 100;
+            padding-top: 120px;
+            z-index: 99;
+        }
 
-                font-weight: 600;
-            }
-            
+        .inner-banner {
 
-            .w3l-breadcrumb {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    z-index: 100;
-    padding-top: 120px;
-    z-index: 99;
-}
+            min-height: 230px;
 
-.inner-banner {
+        }
 
-    min-height: 230px;
-   
-}
-.row{
-    margin-top: -40px;
-}
-           </style> 
+        .row {
+            margin-top: -40px;
+        }
+    </style>
 
-  
+
     <br>
-<br><br>
+    <br><br>
 
 
-<br>
-<br><br>
+
     {% endblock main %}
-

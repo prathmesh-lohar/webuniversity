@@ -6,8 +6,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 from django.contrib.sitemaps.views import sitemap
-from app1.sitemap import BlogSiteMap,StaticSitemap,HightPrioritySitemap
-
+from app1.sitemap import BlogSiteMap,StaticSitemap,HightPrioritySitemap,CourseIndexSiteMap
+from app1.sitemap import pyTutSiteMap,cTutSiteMap
 from django.views.generic.base import TemplateView
 
 app_name = "app1"
@@ -15,8 +15,11 @@ app_name = "app1"
 sitemaps = {
     'HightPrioritySitemap': HightPrioritySitemap,
     'static': StaticSitemap,
+    'CourseIndexSiteMap':CourseIndexSiteMap,
+    'pyTutSiteMap':pyTutSiteMap,
+    'cTutSiteMap':cTutSiteMap,
     'blog':BlogSiteMap,
-    
+
 }
 
 urlpatterns = [
@@ -24,12 +27,19 @@ urlpatterns = [
     path("", views.home , name="home"),
     path("about", views.about , name="about"),
     path("courses", views.courses , name="courses"),
+    path("search", views.search , name="search"),
 
-    path("tutorial/<str:course>/<str:slug>/<int:cid>", views.tutorial, name="tutorial"),
+
+    path("tutorial/<str:course>/<str:slug>", views.tutorial, name="tutorial"),
     
-    path("course/<str:slug>/index/<int:id>", views.index , name="index"),
+    path("course/<str:slug>/index/", views.course_index , name="course_index"),
+    # all
+    
+    path("blog/filter/<str:category>", views.blog_filter, name="blog_filter"),
+    path("blog", views.all_blog, name="all_blog"),
 
-
+    # single
+    path("blog/<str:slug>", views.blog, name="blog"),
 
 
     path("sitemap.xml", sitemap, {"sitemaps":sitemaps}, name="django.contrib.sitemaps.view.sitemap"),

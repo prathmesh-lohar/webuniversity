@@ -1,0 +1,169 @@
+{% extends 'base.html' %}
+{% block title %}: About{% endblock title %}
+{% block meta-desc %}{% endblock meta-desc %}
+{% block meta-keywords %}{% endblock meta-keywords %}
+{% block meta-auther %}Prathmesh-Lohar{% endblock meta-auther %}
+{% block main %}
+{% load static %}
+<!-- inner banner -->
+<div class="inner-banner">
+    <section class="w3l-breadcrumb">
+        <div class="container">
+           
+                <div class="scrol_tab" >
+                    <div class="left-arrow fafa" onclick="leftFunction()"><span class="fa fa-chevron-left"></span></div>
+                    <ul id="srolltab">
+                        
+                      
+                          
+                       
+                       
+                        <li>
+                            <a href="/blog" {% if request.get_full_path == '/blog' %} class="activetab"  {% endif %}>All</a>       
+                        </li>
+
+                        {% for cat in cats %}
+
+                        <li>
+                            <a href="/blog/filter/{{cat}}" {% if category == cat.name %} class="activetab"{% endif %}>{{cat}}</a>
+                        </li>
+            
+                        {% endfor %}
+                    </ul>
+                    <div class="right-arrow fafa" onclick="myFunction()"><span class="fa fa-chevron-right"></span></div>
+                   </div>
+                </div>
+             
+           
+        </div>
+    </section>
+</div>
+<!-- //inner banner -->
+<!-- about section -->
+<section class="w3l-text-6 " id="about">
+    <div class="text-6-mian  ">
+        <div class="container">
+            <div class="w3l-grids-block-5 ">
+                <section id="grids5-block" class="pt-md-4 pb-md-5  mb-5">
+                    <div class="container">
+                   
+            
+                        <div class="row mt-sm-5 pt-lg-2" style="text-align: justify;">
+                            {% for i in blogs %}
+                            <div class="col-lg-4 col-sm-6 my-1">
+                                <div class=" grids5-info">
+                                    <a href="/blog/{{i.slug}}"><img src="{{i.thumb.url}}" alt="{{i.title}}" loading="lazy" /></a>
+                                    <div class="blog-info">
+                                        <h5>{{i.date_of_publish}}</h5>
+                                        <h4><a href="/blog/{{i.slug}}">{{i.title}}</a></h4>
+                                        <p >{{i.summary|slice:"120"}}  ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+<style>
+    .scrol_tab{
+        font-family: "Roboto",sans-serif;
+        background-color: rgba(255, 255, 255, 0.486);
+        /* background-color: #00000012; */
+        max-width: 100%;
+        margin: 16px auto;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        cursor: pointer;
+    }
+    .fafa {
+        color: white;
+        display: block;
+    }
+    .scrol_tab ul{
+        display: flex;
+        gap: 16px;
+        padding: 12px 24px;
+        margin: 0;
+        list-style-type: none;
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+        margin-left: -15px;
+    }
+    .scrol_tab a.activetab{
+        color: white;
+    background-color: #000000ab;
+    }
+    .scrol_tab ul::-webkit-scrollbar{
+        display: none;
+    }
+    .scrol_tab a {
+        color: black;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 4px 24px;
+    display: inline-block;
+    border-radius: 4px;
+    user-select: none;
+    white-space: nowrap;
+    border-style: solid;
+    border-width: 1px;
+    }
+    .scrol_tab .right-arrow , .scrol_tab .left-arrow{
+  
+        top:0;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .scrol_tab .right-arrow{
+        right: 0;
+        background: linear-gradient(to left,#cacacaad 60%, transparent);
+
+    justify-content: flex-end;
+    color: black;   
+
+    }
+    .scrol_tab .left-arrow{
+        right: 0;
+    background: linear-gradient(to right,#cacacaad 60%, transparent);
+    justify-content: flex-end;
+    color: black;
+    }
+    .fafa: hover {
+        background-color: #333;
+    }
+
+</style>
+
+<script>
+    function myFunction() {
+      var element = document.getElementById("srolltab");
+      element.scrollLeft += 200;
+  
+    }
+    function leftFunction() {
+      var element = document.getElementById("srolltab");
+      element.scrollLeft -= 200;
+      
+    }
+
+
+    </script>
+
+
+
+    <br><br>
+
+{% endblock main %}

@@ -150,7 +150,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 TINYMCE_DEFAULT_CONFIG = {
     'cleanup_on_startup': True,
     'custom_undo_redo_levels': 20,
-    'selector': 'textarea',
+    # 'selector': 'textarea',
     'theme': 'silver',
     'plugins': '''
             textcolor save link image media preview codesample contextmenu
