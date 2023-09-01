@@ -28,8 +28,8 @@ urlpatterns = [
     path("about", views.about , name="about"),
     path("courses", views.courses , name="courses"),
     path("search", views.search , name="search"),
-
-
+    path("contact", views.contact , name="contact"),
+    
     path("tutorial/<str:course>/<str:slug>", views.tutorial, name="tutorial"),
     
     path("course/<str:slug>/index/", views.course_index , name="course_index"),

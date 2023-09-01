@@ -1,6 +1,6 @@
 from django.shortcuts import render,HttpResponse
 from django.db.models import Q
-
+from django.contrib import messages
 # Create your views here.
 
 
@@ -25,6 +25,22 @@ def about(request):
         'staf':staf
     }
     return render(request, "about.html",data)
+
+def contact(request):
+    if request.method == 'POST':
+        fname = request.POST.get('fname')
+        lname = request.POST.get('lname')
+        phone = request.POST.get('phone')
+        msg = request.POST.get('msg')
+
+        body = "Name :" + " "+ fname + " " +lname + "\n" + "Phone :" + " " +phone +"\n" +"message : " + msg
+
+        from app1.mail import sendmail
+        sendmail(body)
+        messages.success(request, "Your Response Saved Successfully")
+        return render(request, "contact.html")
+
+    return render(request, "contact.html")
 
 def courses(request):
     from app1.models import course

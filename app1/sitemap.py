@@ -25,7 +25,7 @@ class StaticSitemap(Sitemap):
 
     def items(self):
 
-        return ['app1:courses','app1:about',]
+        return ['app1:courses','app1:about','app1:contact',]
 
         # return ['main:about', 'main:contact']
 
