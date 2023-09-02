@@ -2,7 +2,7 @@ from django.shortcuts import render,HttpResponse
 from django.db.models import Q
 from django.contrib import messages
 # Create your views here.
-
+from django.core.paginator import Paginator
 
 def home(request):
     from app1.models import course,blog,staf
@@ -104,21 +104,30 @@ def blog_filter(request,category):
     from app1.models import blog,blogcategory
     blogs = blog.objects.filter(category__name__contains=category)
     cats = blogcategory.objects.all()
+    p = Paginator(blogs,24)
+    page = request.GET.get("page")
+    pages = p.get_page(page)
  
     data = {
         'blogs':blogs,
         'cats':cats,
         'category':category,
+        'pages':pages
     }
     return render(request, "all_blog.html",data)
 
 def all_blog(request):
     from app1.models import blog,blogcategory
+
     blogs = blog.objects.all()
     cats = blogcategory.objects.all()
+    p = Paginator(blogs,24)
+    page = request.GET.get("page")
+    pages = p.get_page(page)
     data = {
         'blogs':blogs,
-        'cats':cats
+        'cats':cats,
+        'pages':pages
     }
     return render(request, "all_blog.html",data)
 

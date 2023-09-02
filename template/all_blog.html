@@ -49,7 +49,7 @@
                    
             
                         <div class="row mt-sm-5 pt-lg-2" style="text-align: justify;">
-                            {% for i in blogs %}
+                            {% for i in pages %}
                             <div class="col-lg-4 col-sm-6 my-1">
                                 <div class=" grids5-info">
                                     <a href="/blog/{{i.slug}}"><img src="{{i.thumb.url}}" alt="{{i.title}}" loading="lazy" /></a>
@@ -71,7 +71,55 @@
     </div>
 </section>
 
+<div class="pagination-style">
+    <ul>
+        {% if pages.has_previous %}
+    
+ 
+    <li> <a href="?page={{pages.previous_page_number}}"  >
+        <span class="fa fa-angle-double-left" aria-hidden="true"></span>
+    </a>
+</li>
 
+{% endif %}
+        
+        
+        {% for pg in pages.paginator.page_range %}
+        {% if pages.number == pg %}
+      
+          <li><a class="active" href="?page={{pg}}">{{pg}}</a></li>
+        {% else %}
+         
+          <a href="?page={{pg}}">{{pg}}</a>
+        {% endif %}
+      {% endfor %}
+        <!-- <li>
+            <a href="#page">2</a>
+        </li>
+        <li>
+            <a href="#page">3</a>
+        </li> -->
+        {% if pages.has_next %}
+
+
+
+        <li>
+            <a href="?page={{pages.next_page_number}}"><span class="fa fa-angle-double-right" aria-hidden="true"></span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+</div>
+
+<br><br>
+<!-- //pagination -->
+
+
+
+   
+
+
+    
 <style>
     .scrol_tab{
         font-family: "Roboto",sans-serif;
