@@ -6,13 +6,11 @@ sudo apt install python3
 sudo apt install python3-pip
 sudo apt install python3-dev
 
- sudo apt install apache2
+sudo apt install apache2
 sudo apt install libapache2-mod-wsgi-py3 
 
 apt install mysql-server libmysqlclient-dev -y
 
-echo "installing apt packages"
+echo "installing apt packages ok"
 
 
-sudo pip3 install -r requirement.txt
-echo "installed re.txt"

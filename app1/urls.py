@@ -9,6 +9,7 @@ from django.contrib.sitemaps.views import sitemap
 from app1.sitemap import BlogSiteMap,StaticSitemap,HightPrioritySitemap,CourseIndexSiteMap
 from app1.sitemap import pyTutSiteMap,cTutSiteMap
 from django.views.generic.base import TemplateView
+from django.views.static import serve 
 
 app_name = "app1"
 
@@ -47,4 +48,4 @@ urlpatterns = [
 
 
     
-    ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) 
+    ] +  static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) 
