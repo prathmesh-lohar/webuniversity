@@ -6,10 +6,10 @@ sudo apt install python3
 sudo apt install python3-pip
 sudo apt install python3-dev
 
-sudo apt install apt install apache2
-sudo apt install apt install libapache2-mod-wsgi-py3 
+ sudo apt install apache2
+sudo apt install libapache2-mod-wsgi-py3 
 
-
+apt install mysql-server libmysqlclient-dev -y
 
 echo "installing apt packages"
 
