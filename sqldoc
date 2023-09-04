@@ -1,3 +1,18 @@
+apt install mysql-server libmysqlclient-dev -y
+systemctl start mysql
+systemctl enable mysql
+
+mysql
+CREATE DATABASE djangodb;
+CREATE USER 'djangouser'@'localhost' IDENTIFIED BY 'yourpassword';
+GRANT ALL ON *.* TO 'djangouser'@'localhost';
+FLUSH PRIVILEGES;
+EXIT
+
+pip install mysqlclient
+
+
+
 DATABASES = {
 	'default': {
 	'ENGINE': 'django.db.backends.mysql',
@@ -8,6 +23,7 @@ DATABASES = {
 	'PORT' : '3306',
 	}
 }
-
+manage.py shell
 from django.contrib.contenttypes.models import ContentType
  ContentType.objects.all().delete()
+manage.py loaddata data.json
