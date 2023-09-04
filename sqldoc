@@ -1,0 +1,13 @@
+DATABASES = {
+	'default': {
+	'ENGINE': 'django.db.backends.mysql',
+	'NAME': 'webuniversity',
+	'USER': 'super',
+	'PASSWORD': '$$DreamH@9975$$',
+	'HOST': '127.0.0.1',
+	'PORT' : '3306',
+	}
+}
+
+from django.contrib.contenttypes.models import ContentType
+ ContentType.objects.all().delete()
