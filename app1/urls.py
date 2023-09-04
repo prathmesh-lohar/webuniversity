@@ -10,6 +10,7 @@ from app1.sitemap import BlogSiteMap,StaticSitemap,HightPrioritySitemap,CourseIn
 from app1.sitemap import pyTutSiteMap,cTutSiteMap
 from django.views.generic.base import TemplateView
 from django.views.static import serve 
+from django.urls import re_path as url
 
 app_name = "app1"
 
@@ -46,6 +47,8 @@ urlpatterns = [
     path("sitemap.xml", sitemap, {"sitemaps":sitemaps}, name="django.contrib.sitemaps.view.sitemap"),
     path("robots.txt", TemplateView.as_view(template_name="app1/robots.txt",content_type="text/plain")),
 
+    url(r'^media/(?P<path>.*)$', serve,{'document_root': settings.MEDIA_ROOT}),
 
-    
-    ] +  static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) 
+    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
+
+    ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) 
