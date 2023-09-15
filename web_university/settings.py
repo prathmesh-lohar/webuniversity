@@ -27,6 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
+CSRF_TRUSTED_ORIGINS = ['https://debugnow.in', 'https://www.debugnow.in']
 
 # Application definition
 
@@ -83,11 +84,22 @@ WSGI_APPLICATION = 'web_university.wsgi.application'
 # Database
 #https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': BASE_DIR / 'db.sqlite3',
+#    }
+#}
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+	'default': {
+	'ENGINE': 'django.db.backends.mysql',
+	'NAME': 'webuniversity',
+	'USER': 'super',
+	'PASSWORD': '$$DreamH@9975$$',
+	'HOST': '127.0.0.1',
+	'PORT' : '3306',
+	}
 }
 
 # DATABASES = {
@@ -150,6 +162,7 @@ else:
   
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 
 # Default primary key field type
